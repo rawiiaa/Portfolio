@@ -1245,8 +1245,7 @@ a {
 .text{
   margin-top:10%;
   margin-left: 3%;
-  display: flex; 
-  flex-direction: column;
+ 
 }
 #more {display: none;}
 #mor{display: none;}
