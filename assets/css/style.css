@@ -319,7 +319,7 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
-@media (min-device-width: 1024px) {
+
 .main_nav_container
 {
 	width: auto;
@@ -368,7 +368,7 @@ section {
   color:#75EDF9;
   /*rgba(0,255,150,0.6); #3EDC99*/
   
-}}
+}
 .navbar_user
 {
 	margin-left: 37px;
