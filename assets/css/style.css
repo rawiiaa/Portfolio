@@ -374,9 +374,8 @@ section {
   background-color: white;
   overflow: hidden;
   width: 100%;
-  display:table;
-  white-space:nowrap;
-  text-align:center;
+  display: flex;
+  flex-direction: row;
   position: fixed;
   z-index: 2;
   margin-top: 0px;
