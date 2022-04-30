@@ -344,12 +344,15 @@ section {
 	float: right;
 	padding-left: 0px;
 	padding-right: 0px;
+  overflow: hidden;
+
 }
-.navbar_menu li
+.navbar li
 {
 	display: inline-block;
+  float: right;
 }
-.navbar_menu li a
+.navbar a
 {
 	display: block;
 	color: #1e1e27;
@@ -363,7 +366,7 @@ section {
 	-o-transition: color 0.3s ease;
 	transition: color 0.3s ease;
 }
-.navbar_menu li a:hover
+.navbar  a:hover
 {
   color:#75EDF9;
   /*rgba(0,255,150,0.6); #3EDC99*/
