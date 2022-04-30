@@ -376,6 +376,7 @@ section {
   overflow: auto;
   width: 100%;
   display: flex;
+  display: table;
   flex-direction: row;
   position: fixed;
   z-index: 2;
