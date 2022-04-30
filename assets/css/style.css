@@ -379,6 +379,8 @@ section {
   position: fixed;
   z-index: 2;
   margin-top: 0px;
+  padding: 0%;
+  margin: 0%;
   float: right;
 }
 
