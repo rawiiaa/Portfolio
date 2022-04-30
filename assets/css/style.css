@@ -322,17 +322,21 @@ section {
 @media (min-device-width: 1024px) {
 .main_nav_container
 {
+	width: auto;
 	background: #FFFFFF;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
   right: 0;
-  position: fixed;
-	z-index: 2;
-  width: 100%;
-  margin-top: 0px;
+ 
   
   
 }
-
+.section-headerr{
+  position: fixed;
+	background: #FFFFFF;
+	z-index: 2;
+  width: auto;
+  margin-top: 0px;
+}
 .navbar
 {
 	width: auto;
