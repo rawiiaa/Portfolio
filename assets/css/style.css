@@ -319,12 +319,20 @@ section {
 .facts .count-box a:hover {
   color: #1f5297;
 }
+@media (min-device-width: 1024px) {
 .main_nav_container
 {
-	width: auto;
 	background: #FFFFFF;
 	box-shadow: 0 0 16px rgba(0, 0, 0, 0.15);
+  right: 0;
+  position: fixed;
+	z-index: 2;
+  width: auto;
+  margin-top: 0px;
+  
+  
 }
+
 .navbar
 {
 	width: auto;
@@ -356,7 +364,7 @@ section {
   color:#75EDF9;
   /*rgba(0,255,150,0.6); #3EDC99*/
   
-}
+}}
 .navbar_user
 {
 	margin-left: 37px;
@@ -658,13 +666,7 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.section-headerr{
-  position: fixed;
-	background: #FFFFFF;
-	z-index: 2;
-  width: 100%;
-  margin-top: 0px;
-}
+
 .margin{
   margin-top: 70px;
 }
