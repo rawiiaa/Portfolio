@@ -344,29 +344,70 @@ section {
 	float: right;
 	padding-left: 0px;
 	padding-right: 0px;
-  overflow: hidden;
-
 }
-.navbar li
+.navbar_menu li
 {
 	display: inline-block;
-  float: right;
 }
-.navbar a
+.navbar_menu li a
 {
 	display: block;
 	color: #1e1e27;
 	font-size: 16px;
+	font-weight: 500;
 	text-transform: uppercase;
-	padding: 14px 16px;
-  float: right;
+	padding: 20px;
+	-webkit-transition: color 0.3s ease;
+	-moz-transition: color 0.3s ease;
+	-ms-transition: color 0.3s ease;
+	-o-transition: color 0.3s ease;
+	transition: color 0.3s ease;
 }
-.navbar  a:hover
+.navbar_menu li a:hover
 {
   color:#75EDF9;
   /*rgba(0,255,150,0.6); #3EDC99*/
   
 }
+/* ajoutttt */
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color:#75EDF9;
+
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
 .navbar_user
 {
 	margin-left: 37px;
@@ -1273,4 +1314,3 @@ a {
   padding-left: 0;
   padding-right: 0;
 }
-
