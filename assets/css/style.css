@@ -371,16 +371,19 @@ section {
 }
 /* ajoutttt */
 .topnav {
-  background-color: #000;
+  background-color: white;
   overflow: hidden;
   width: 100%;
+  position: fixed;
+  z-index: 2;
+  margin-top: 0px;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: right;
   display: block;
-  color: #f2f2f2;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
