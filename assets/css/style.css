@@ -359,12 +359,13 @@ section {
 	font-size: 16px;
 	font-weight: 500;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 14px 16px;
 	-webkit-transition: color 0.3s ease;
 	-moz-transition: color 0.3s ease;
 	-ms-transition: color 0.3s ease;
 	-o-transition: color 0.3s ease;
 	transition: color 0.3s ease;
+  float: right;
 }
 .navbar  a:hover
 {
