@@ -414,6 +414,50 @@ section {
 }
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .topnav {
+    background-color: white;
+    overflow: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    z-index: 2;
+    margin-top: 0px;
+    padding: 0%;
+    margin: 0%;
+    flex-wrap: nowrap;
+    
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 9px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color:#75EDF9;
+  
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  }
+  
 
 
 
