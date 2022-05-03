@@ -376,7 +376,7 @@ section {
   overflow: auto;
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   position: fixed;
   z-index: 2;
   margin-top: 0px;
@@ -384,16 +384,10 @@ section {
   margin: 0%;
   flex-wrap: nowrap;
   
-  
 }
-.topnav-right{
-  float: right;
-  display: block;
 
-}
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: right;
   display: block;
   color: black;
   text-align: center;
