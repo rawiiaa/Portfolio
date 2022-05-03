@@ -383,12 +383,13 @@ section {
   padding: 0%;
   margin: 0%;
   flex-wrap: nowrap;
-  display: block;
   
   
 }
 .topnav-right{
   float: right;
+  display: block;
+
 }
 /* Style the links inside the navigation bar */
 .topnav a {
