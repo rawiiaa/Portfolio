@@ -566,6 +566,7 @@ section {
     display: block;
     background: none;
     border-radius: 0;
+    width: 100%;
   }
   .skills .progress .skill {
     padding: 0;
