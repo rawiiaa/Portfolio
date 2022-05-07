@@ -1337,13 +1337,13 @@ a {
   }
   
   .service .service-item:hover {
-    box-shadow: inset 250px 0 0 0 #75EDF9;
+    box-shadow: inset 320px 0 0 0 #75EDF9;
   }
   
   .service .service-icon {
     position: relative;
-    width: 60px;
-    min-height: 60px;
+    width: 150px;
+    min-height: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
