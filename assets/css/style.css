@@ -292,7 +292,7 @@ section {
 }
 @media screen and (min-width: 200px) and (max-width: 480px) {
   .about .content h3 {
-    font-size: 2px;
+    font-size: 15px;
     color: #173b6c;
   }
   .about .content ul {
@@ -302,11 +302,11 @@ section {
   .about .content ul li {
     display: flex;
     align-items: center;
-    font-size: 4px;
+    font-size: 10px;
   }
  
   .about .content ul i {
-    font-size: 5px;
+    font-size: 10px;
     margin-right: 2px;
     color: #149ddd;
     line-height: 0;
@@ -326,11 +326,11 @@ section {
   flex-direction: row;
 
 }
-.img{
+  .img{
   width: 90px;
   height: 90px;
   justify-content: center;
-}  
+ }   
   }
  
 
