@@ -292,7 +292,6 @@ section {
     padding: 0;
   }
   .about .content ul li {
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
   }
@@ -314,8 +313,8 @@ section {
     
   }
   .img{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
   }
 }
 /*--------------------------------------------------------------
