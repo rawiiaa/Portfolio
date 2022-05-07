@@ -327,9 +327,9 @@ section {
 
 }
 .img{
-  margin-left: 20px;
   width: 90px;
   height: 90px;
+  justify-content: center;
 }  
   }
  
