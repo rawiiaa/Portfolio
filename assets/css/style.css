@@ -329,7 +329,8 @@ section {
   .img{
   width: 90px;
   height: 90px;
-  text-align: center;
+  margin-right: 50%
+   ;
 }   
   }
  
