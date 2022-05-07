@@ -282,6 +282,14 @@ section {
   border-collapse: separate;
   column-gap: 1rem;
 }
+.abs{
+  display: flex;
+  flex-direction: row;
+  border-spacing: 0 15px; 
+  border-collapse: separate;
+  column-gap: 1rem;
+
+}
 @media screen and (min-width: 200px) and (max-width: 480px) {
   .about .content h3 {
     font-size: 2px;
@@ -312,6 +320,11 @@ section {
     border-spacing: 0 15px; 
     border-collapse: separate;
     column-gap: 1rem;
+}
+.abs{
+  display: flex;
+  flex-direction: row;
+
 }
 .img{
   margin-left: 20px;
