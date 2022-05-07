@@ -1347,8 +1347,8 @@ a {
   
   .service .service-icon {
     position: relative;
-    width: 150px;
-    min-height: 150px;
+    width: 20px;
+    min-height: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
