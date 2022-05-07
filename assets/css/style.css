@@ -321,15 +321,15 @@ section {
     border-collapse: separate;
     column-gap: 1rem;
 }
-.abs{
+  .abs{
   display: flex;
   flex-direction: row;
 
 }
 .img{
   margin-left: 20px;
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
 }  
   }
  
