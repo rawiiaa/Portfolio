@@ -1317,11 +1317,7 @@ a {
   color: #ffffff;
 }
 @media screen and (min-width: 200px) and (max-width: 480px) {
-  .service {
-    position: relative;
-    width: 100%;
-    padding: 45px 0 15px 0;
-  }
+  
   .svc{
     display: flex;
     flex-direction: row;
