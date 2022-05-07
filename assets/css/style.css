@@ -1337,13 +1337,13 @@ a {
   }
   
   .service .service-item:hover {
-    box-shadow: inset 350px 0 0 0 #75EDF9;
+    box-shadow: inset 800px 0 0 0 #75EDF9;
   }
   
   .service .service-icon {
     position: relative;
-    width: 150px;
-    min-height: 150px;
+    width: 500px;
+    min-height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1359,7 +1359,7 @@ a {
   }
   
   .service .service-item:hover i {
-    font-size: 30px;
+    font-size: 65px;
   }
   
   .service .service-text {
