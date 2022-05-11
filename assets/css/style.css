@@ -1398,6 +1398,10 @@ a {
 .descriptionvideo{
   font-family: Rockwell; 
 }
+.dscs{
+  font-size: 19px;
+  font-family:Rockwell;
+}
 .text{
 
   margin-left: 3%;
@@ -1434,12 +1438,16 @@ a {
   .videoplay{
     
     height: auto;
-    width: 400px
+    width: 100%
     
   }
   .descriptionvideo{
     font-family: Rockwell; 
-    font-size: 13px;
+    font-size: 14px;
+  }
+  .dscs{
+    font-size: 14px;
+    font-family:Rockwell;
   }
   
 }
