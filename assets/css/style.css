@@ -1429,10 +1429,10 @@ a {
   .video{
     display: flex; 
     flex-direction: row; 
-    padding: 30px }
+    padding: 10px }
   .videoplay{
     height: auto;
-    width: 250px;
+    width: 200px;
     
   }
   .descriptionvideo{
