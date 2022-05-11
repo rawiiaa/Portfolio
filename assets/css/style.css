@@ -1434,7 +1434,10 @@ a {
     display: flex; 
     flex-direction: column; 
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto; 
+    border-collapse:separate;
+    border-spacing:0 15px;
+  }
   .videoplay{
     
     height: auto;
