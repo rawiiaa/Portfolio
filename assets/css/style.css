@@ -1428,16 +1428,18 @@ a {
 @media screen and (min-width: 200px) and (max-width: 480px) {
   .video{
     display: flex; 
-    flex-direction: row; 
-    padding: 10px }
+    flex-direction: column; 
+    margin-left: auto;
+    margin-right: auto; }
   .videoplay{
+    
     height: auto;
-    width: 200px;
+    width: 400px
     
   }
   .descriptionvideo{
     font-family: Rockwell; 
-    font-size: 12px;
+    font-size: 13px;
   }
   
 }
