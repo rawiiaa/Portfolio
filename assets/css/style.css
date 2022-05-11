@@ -1390,6 +1390,14 @@ a {
   display: flex; 
   flex-direction: row; 
   padding: 30px }
+.videoplay{
+  height: auto;
+  width: 800px;
+  
+}
+.descriptionvideo{
+  font-family: Rockwell; 
+}
 .text{
 
   margin-left: 3%;
@@ -1416,4 +1424,20 @@ a {
 .div-holder {
   padding-left: 0;
   padding-right: 0;
+}
+@media screen and (min-width: 200px) and (max-width: 480px) {
+  .video{
+    display: flex; 
+    flex-direction: row; 
+    padding: 30px }
+  .videoplay{
+    height: 250px;
+    width: 250px;
+    
+  }
+  .descriptionvideo{
+    font-family: Rockwell; 
+    font-size: 12px;
+  }
+  
 }
