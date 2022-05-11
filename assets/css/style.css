@@ -1431,7 +1431,7 @@ a {
     flex-direction: row; 
     padding: 30px }
   .videoplay{
-    height: 250px;
+    height: auto;
     width: 250px;
     
   }
